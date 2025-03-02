@@ -725,7 +725,7 @@ textarea:focus {
   border-color: #4D5AE5;
 }
 
-.btn-Send {
+.btn-send {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
   cursor: pointer;
