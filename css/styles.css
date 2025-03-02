@@ -581,8 +581,9 @@ svg {
 }
 .close-button:hover,
 .close-button:focus {
-  stroke: #ffffff;
-  background-color: #404bbf;
+     background-color: #404BBF;
+    fill: #ffffff;
+    border: none;
 }
 
 .modal-text {
