@@ -502,8 +502,7 @@ svg {
   color #ffffff;
 }
 .footer-btn-cont{
-    display: flex;
-  align-items: center;
+
 }
 .btn-subscribe {
   min-width: 165px;
@@ -526,7 +525,7 @@ svg {
 }
 .footer-btn-icon{
 
-  /* margin-left: 16px;  */
+  margin-left: 16px; 
 }
 /* #endregion footer */
 /* #region back-drop */
