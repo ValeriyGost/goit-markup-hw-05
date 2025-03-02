@@ -487,9 +487,124 @@
               </a>
             </li>
           </ul>
+
+          <div class="footer-cont-subscribe">
+            <label class="footer-form-Subscribe" for="user-email"
+              >Subscribe</label
+            >
+            <!-- <div class="modal-form-input-conteiner"> -->
+            <input
+              class="footer-form-input"
+              id="user-email"
+              title="E-mail"
+              name="user-email"
+              placeholder="E-mail"
+              required
+              type="email"
+            />
+            <!-- <svg class="modal-form-icon" width="12" height="12">
+                <use href="./images/icons.svg#mail"></use>
+              </svg>
+            </div> -->
+          </div>
         </div>
       </div>
     </footer>
     <!-- #endregion footer -->
+
+    <!--#region back-drop -->
+    <div class="back-drop">
+      <!-- is-open -->
+      <div class="modal">
+        <button class="close-button" type="button">
+          <svg class="close-batton" width="8" height="8">
+            <use href="./images/icons.svg#close-btn"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <div class="modal-coneiner-block">
+            <label class="modal-form-label" for="user-name">Name</label>
+            <div class="modal-form-input-conteiner">
+              <input
+                class="modal-form-input"
+                id="user-name"
+                title="Name"
+                name="user-text"
+                placeholder="Name"
+                required
+                type="text"
+              />
+              <svg class="modal-form-icon" width="12" height="12">
+                <use href="./images/icons.svg#user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-coneiner-block">
+            <label class="modal-form-label" for="phone-number">Phone</label>
+            <div class="modal-form-input-conteiner">
+              <input
+                class="modal-form-input"
+                id="phone-number"
+                title="xxx xxx xx xx"
+                name="user-phone"
+                placeholder="xxx xxx xx xx"
+                required
+                type="tel"
+              />
+              <svg class="modal-form-icon" width="12" height="12">
+                <use href="./images/icons.svg#phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-coneiner-block">
+            <label class="modal-form-label" for="user-email">Email</label>
+            <div class="modal-form-input-conteiner">
+              <input
+                class="modal-form-input"
+                id="user-email"
+                title="test@gmail.com"
+                name="user-email"
+                placeholder="test@gmail.com"
+                required
+                type="email"
+              />
+              <svg class="modal-form-icon" width="12" height="12">
+                <use href="./images/icons.svg#mail"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="cont-user-text">
+            <label class="modal-form-label" for="user-coment">Comment</label>
+            <textarea
+              name="user-coment"
+              placeholder="Text input"
+              id="user-coment"
+              class="user-coment"
+            ></textarea>
+          </div>
+
+          <div class="modal-form-cont-checkbox">
+            <input
+              type="checkbox"
+              id="user-checkbox"
+              class="checkbox visually-hidden"
+            />
+            <label class="label-checkbox" for="user-checkbox">
+              <span class="custom-checkbox">
+                <svg width="10" height="8">
+                  <use href="./images/icons.svg#cheked"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="btn-Send" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <!--#endregion back-drop -->
   </body>
 </html>
