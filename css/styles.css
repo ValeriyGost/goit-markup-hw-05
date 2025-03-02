@@ -609,6 +609,7 @@ svg {
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
+  line-height: 1.17;
 }
 .modal-form-input-conteiner {
   position: relative;
@@ -637,6 +638,7 @@ svg {
   top: 50%;
   transform: translateY(-50%);
   left: 18px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-input:focus + .modal-form-icon {
   fill: #4d5ae5;
