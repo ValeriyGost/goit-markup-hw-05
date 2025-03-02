@@ -677,9 +677,9 @@ svg {
   color: #4d5ae5;
 }
 .checkbox:checked + .label-checkbox .custom-checkbox {
-  background-color: #404bbf;
-  border: transparent;
-  fill: #fff;
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .cont-user-text {
