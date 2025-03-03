@@ -468,7 +468,8 @@ p {
 svg {
   fill: #f4f4fd;
 }
-.footer-cont-subscribe {
+.footer-cont-subscribe { 
+  margin-left: 80px;
 }
 .footer-paragrapf-subscribe {
   margin-bottom: 16px;
