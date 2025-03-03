@@ -582,7 +582,7 @@ svg {
     /* stroke: #2e2f42; */
 }
 
-/* .close-button:hover .close-batton-svg{   
+.close-button:hover .close-batton-svg{   
     background-color: #404BBF;
     fill: #ffffff;
     border: none;
@@ -592,7 +592,7 @@ svg {
     fill: #ffffff;
     border: none;
    
-} */
+}
  .close-button:hover .close-batton-svg{fill: #ffffff;}
  .close-button:focus .close-batton-svg{fill: #ffffff;}
 
