@@ -593,8 +593,8 @@ svg {
     border: none;
    
 }
- .close-button:hover .close-batton-svg{fill: #ffffff;}
- .close-button:focus .close-batton-svg{fill: #ffffff;}
+ .close-button:hover {fill: #ffffff;}
+ .close-button:focus {fill: #ffffff;}
 
  .close-batton-svg{
   fill:#2e2f42;
