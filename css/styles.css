@@ -582,19 +582,19 @@ svg {
     /* stroke: #2e2f42; */
 }
 
-.close-button:hover .close-batton-svg{   
+.close-button:hover {   
     background-color: #404BBF;
     fill: #ffffff;
     border: none;
     }
-.close-button:focus .close-batton-svg{
+.close-button:focus {
      background-color: #404BBF;
     fill: #ffffff;
     border: none;
    
 }
- .close-button:hover {fill: #ffffff;}
- .close-button:focus {fill: #ffffff;}
+ .close-button:hover .close-batton-svg{fill: #ffffff;}
+ .close-button:focus .close-batton-svg{fill: #ffffff;}
 
  .close-batton-svg{
   fill:#2e2f42;
