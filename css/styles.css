@@ -586,12 +586,12 @@ svg {
   background-color: #404BBF;
    fill: #ffffff;
     border: none;
-    stroke: #ffffff;}
+    }
 .close-button:focus {
      background-color: #404BBF;
    fill: #ffffff;
     border: none;
-    stroke: #ffffff;
+   
 }
 .close-batton-svg{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
