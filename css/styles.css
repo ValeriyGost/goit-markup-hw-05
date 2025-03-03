@@ -579,7 +579,7 @@ svg {
     display: flex;
     justify-content: center;
     align-items: center;
-    stroke: #2e2f42;
+    /* stroke: #2e2f42; */
 }
 
 .close-button:hover{   
